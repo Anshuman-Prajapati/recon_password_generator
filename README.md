@@ -65,7 +65,7 @@ Instead of spending hours manually crafting password permutations, our tool will
 </ol>
 
 <pre>
-git clone https://github.com/yourusername/recon-password-generator.git
+git clone https://github.com/Anshuman-Prajapati/recon_password_generator.git
 cd recon-password-generator
 </pre>
 
