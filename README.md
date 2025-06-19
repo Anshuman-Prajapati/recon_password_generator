@@ -60,11 +60,50 @@ Instead of spending hours manually crafting password permutations, our tool will
 
 <h2>🛠 Installation Steps</h2>
 
+<ol>
+  <li>📥 Clone the repository:</li>
+</ol>
+
 <pre>
 git clone https://github.com/yourusername/recon-password-generator.git
 cd recon-password-generator
-open index.html
 </pre>
+
+<ol start="2">
+  <li>🚀 Serve the production-ready static files:</li>
+</ol>
+
+<p>The <code>build/</code> folder contains everything needed to run the app offline — including compiled JS and CSS under <code>build/static/</code>.</p>
+
+<pre>
+npm install -g serve
+serve -s build
+</pre>
+
+<ol start="3">
+  <li>🌐 Open your browser at:</li>
+</ol>
+
+<pre>
+http://localhost:3000
+</pre>
+
+---
+
+<h3>💻 Optional: Rebuild from Source (if source files are included)</h3>
+
+<pre>
+npm install
+npm run build
+serve -s build
+</pre>
+
+---
+
+<p>
+✅ You can now run <strong>Recon Password Generator</strong> offline using your browser.<br>
+The app is fully bundled — HTML, CSS, and JavaScript are in <code>/build</code> and <code>/build/static</code>.
+</p>
 
 <h2>🍰 Contribution Guidelines</h2>
 
